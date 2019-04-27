@@ -87,3 +87,15 @@ h5 {
 .card-text {
     color: white;
 }
+
+footer {
+    height: 50px;
+}
+
+a {
+    color: #5BC0DE;
+}
+
+.bottom {
+    padding: 10px;
+}
