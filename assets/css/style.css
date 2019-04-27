@@ -1,0 +1,63 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.homeHeader {
+    width: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+.about {
+    margin-top: 15px;
+    color: #5BC0DE;
+    font-size: 50px;
+    font-style: oblique;
+    font-weight: bolder;
+}
+
+.intro {
+    margin: 0;
+    width: 100%!important; 
+    padding: 10px;
+    background: #5BC0DE;
+}
+
+.homeCopy {
+    max-width: 1440px;
+    color: white;
+    padding: 10px;
+
+}
+
+.theCrew {
+    margin-top: 15px;
+    font-size: 50px;
+    font-style: oblique;
+    font-weight: bolder;
+    color: #919191;
+}
+
+.crew {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-image: url(../images/crewBackground.png);
+}
+
+h5 {
+    font-style: oblique;
+    font-weight: bolder;
+}
+
+.card-body {
+    margin-top:50px;
+    margin-bottom:50px; 
+    color: white!important;
+}
+
+.profile {
+    max-width: 350px;
+    padding-top: 20px;
+}
