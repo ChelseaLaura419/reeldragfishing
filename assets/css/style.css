@@ -22,7 +22,7 @@ img {
     margin: 0;
     width: 100%!important; 
     padding: 10px;
-    background: #5BC0DE;
+    background-image: url(../images/aboutBackground.png);
 }
 
 .homeCopy {
@@ -51,7 +51,7 @@ h5 {
     font-weight: bolder;
 }
 
-.card-body {
+.bio {
     margin-top:50px;
     margin-bottom:50px; 
     color: white!important;
@@ -60,4 +60,20 @@ h5 {
 .profile {
     max-width: 350px;
     padding-top: 20px;
+}
+
+.map {
+    max-width: 250px;
+    padding-top: 20px;
+}
+
+.btn {
+    border-radius: 0px!important;
+}
+
+.charter {
+    margin: 0;
+    width: 100%!important; 
+    padding: 10px;
+    background-image: url(../images/mapBackground.png);
 }
