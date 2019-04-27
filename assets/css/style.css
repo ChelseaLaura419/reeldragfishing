@@ -12,7 +12,7 @@ img {
 
 .about {
     margin-top: 15px;
-    color: #5BC0DE;
+    color: white;
     font-size: 50px;
     font-style: oblique;
     font-weight: bolder;
@@ -37,7 +37,7 @@ img {
     font-size: 50px;
     font-style: oblique;
     font-weight: bolder;
-    color: #919191;
+    color: white;
 }
 
 .crew {
@@ -77,4 +77,13 @@ h5 {
     width: 100%!important; 
     padding: 10px;
     background-image: url(../images/mapBackground.png);
+}
+
+.card {
+    background: none !important;
+    border: none !important;
+}
+
+.card-text {
+    color: white;
 }
