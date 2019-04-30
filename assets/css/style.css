@@ -99,3 +99,22 @@ a {
 .bottom {
     padding: 10px;
 }
+
+.chartForm {
+    background-color: #DDDDDD;
+    padding: 10px;
+}
+
+.blue {
+    color: #5BC0DE;
+    font-style: oblique;
+    font-weight: bolder;
+}
+
+#submit {
+    margin-top: 10px;
+}
+
+.white {
+    color: white;
+}
