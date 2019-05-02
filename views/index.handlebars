@@ -1,33 +1,163 @@
-<div id="home">
+<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html"><img src="images/reelDragSm.png"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="charters.html">CHARTERS</a>
+        <a class="nav-item nav-link" href="fishing.html">FISHING BUDDIES</a>
+        <a class="nav-item nav-link" href="#">MY ACCOUNT</a>
+      </div>
+    </div>
+  </nav>
+
+  <header>
+    <img src="images/homeHeader.png" class="homeHeader">
+  </header>
+
+
+  <div class="intro">
+    <div class="container">
+      <h3 class="about">ABOUT US</h3>
+      <p class="homeCopy">Located on Florida’s east coast in New Smyrna Beach – Reel Drag Fishing Co. is owned and
+        operated by husband and wife team, Matthew and Chelsea Wallenquest. Together, with their dedicated, seasoned
+        crew and shallow water skiffs, Matthew and Chelsea have created some of the very best back water fishing
+        charters in Florida.</p>
+    </div>
+  </div>
+  <br>
   <div class="container">
     <div class="row">
-      <div class="col-8 offset-2">
-        <h1>{{msg}}</h1>
-        <h2>This is our Home Page!</h2>
-        <form class="clearfix mb-4" action="POST">
-          <div class="form-group">
-            <label for="example-text">Example Text</label>
-            <input type="text" id="example-text" class="form-control" aria-describedby="example-text" placeholder="Enter Example Text">
+      <div class="col"><img src="images/mattInsta1.png"></div>
+      <div class="col"><img src="images/chelInsta1.png"></div>
+      <div class="col"><img src="images/grahamInsta1.png"></div>
+      <div class="col"><img src="images/jimmyInsta1.png"></div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col"><img src="images/grahamInsta2.png"></div>
+      <div class="col"><img src="images/jimmyInsta2.png"></div>
+      <div class="col"><img src="images/mattInsta2.png"></div>
+      <div class="col"><img src="images/chelInsta2.png"></div>
+    </div>
+    <br>
+  </div>
+  <div class="crew">
+    <div class="container">
+      <h3 class="theCrew">THE CREW</h3>
+      <div class="card">
+        <div class="row no-gutters">
+          <div class="col-md-3">
+            <img src="images/mattPro.png" class="card-img" alt="...">
           </div>
-          <div class="form-group">
-            <label for="example-description">Example Description</label>
-            <textarea class="form-control" id="example-description" aria-describedby="example-description" placeholder="Enter Example Description"></textarea>
+          <div class="col-md-1"></div>
+          <div class="col-md-7">
+            <div class="card-body">
+              <h5 class="card-title">MATTHEW WALLENQUEST</h5>
+              <p class="card-text">Vit, omnis con eum nonsecabori tem eaquunda voluptatio et aut vel inullaces di
+                beaquidus ea prorro eum venihit reste nat.
+                Itatibus nullaut facia verumquatur acculla dit ut ipsum re, qui illam, nobis anditae simi, sollupt
+                aquidit
+                quiatur </p>
+            </div>
           </div>
-          <button id="submit" class="btn btn-primary float-right">Submit</button>
-        </form>
-        <h3>Examples:</h3>
-        <ul id="example-list" class="list-group">
-          {{#each examples}}
-          <li data-id="{{this.id}}" class="list-group-item">
-            <a href="example/{{this.id}}">{{this.text}}</a>
-            <button class="btn btn-danger float-right delete">ｘ</button>
-          </li>
-          {{/each}}
-        </ul>
+        </div>
+      </div>
+      <br>
+      <div class="card">
+        <div class="row no-gutters">
+          <div class="col-md-3">
+            <img src="images/chelPro.png" class="card-img" alt="...">
+          </div>
+          <div class="col-md-1"></div>
+          <div class="col-md-7">
+            <div class="card-body">
+              <h5 class="card-title">CHELSEA WALLENQUEST</h5>
+              <p class="card-text">Vit, omnis con eum nonsecabori tem eaquunda voluptatio et aut vel inullaces di
+                beaquidus ea prorro eum venihit reste nat.
+                Itatibus nullaut facia verumquatur acculla dit ut ipsum re, qui illam, nobis anditae simi, sollupt
+                aquidit
+                quiatur </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="card">
+        <div class="row no-gutters">
+          <div class="col-md-3">
+            <img src="images/grahamPro.png" class="card-img" alt="...">
+          </div>
+          <div class="col-md-1"></div>
+          <div class="col-md-7">
+            <div class="card-body">
+              <h5 class="card-title">GRAHAM SWEENEY</h5>
+              <p class="card-text">Vit, omnis con eum nonsecabori tem eaquunda voluptatio et aut vel inullaces di
+                beaquidus ea prorro eum venihit reste nat.
+                Itatibus nullaut facia verumquatur acculla dit ut ipsum re, qui illam, nobis anditae simi, sollupt
+                aquidit
+                quiatur </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="card">
+        <div class="row no-gutters">
+          <div class="col-md-3">
+            <img src="images/jimmyPro.png" class="card-img" alt="...">
+          </div>
+          <div class="col-md-1"></div>
+          <div class="col-md-7">
+            <div class="card-body">
+              <h5 class="card-title">JIMMY PETRICK</h5>
+              <p class="card-text">Vit, omnis con eum nonsecabori tem eaquunda voluptatio et aut vel inullaces di
+                beaquidus ea prorro eum venihit reste nat.
+                Itatibus nullaut facia verumquatur acculla dit ut ipsum re, qui illam, nobis anditae simi, sollupt
+                aquidit
+                quiatur </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-</div>
+  </div>
+  <div>
+    <img src="images/fishingBuddy.png">
+  </div>
 
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="/js/index.js"></script>
+
+  <div class="charter">
+    <div class="container">
+      <h3 class="about">CHARTERS</h3>
+      <div class="row">
+        <div class="col-sm text-center">
+          <img src="images/titusville.png" class="map">
+          <div class="card-body">
+            <h5 class="card-title">Titusville</h5>
+            <a href="charters.html" class="btn btn-outline-light">Book</a>
+          </div>
+        </div>
+        <div class="col-sm text-center">
+          <img src="images/nsb.png" class="map">
+          <div class="card-body">
+            <h5 class="card-title">New Smynra Beach</h5>
+            <a href="charters.html" class="btn btn-outline-light">Book</a>
+          </div>
+
+        </div>
+        <div class="col-sm text-center">
+          <img src="images/sebastian.png" class="map">
+          <div class="card-body">
+            <h5 class="card-title">Sebastian</h5>
+            <a href="charters.html" class="btn btn-outline-light">Book</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  </div>
