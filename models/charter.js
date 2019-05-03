@@ -1,65 +1,63 @@
 module.exports = function(sequelize, DataTypes) {
-    let Trip = sequelize.define("Trip", {
-      tripLocation: {
+    let Charter = sequelize.define("Charter", {
+      firstName: {
         type: DataTypes.STRING,
         allowNull: false,
         validate: {
             len: [1]
         }
       },
-      description: {
+      lastName: {
         type: DataTypes.STRING,
         allowNull: false,
         validate: {
           len: [1]
         }
       },
-      tripDate: {
+      phone: {
         type: DataTypes.STRING,
         allowNull: false,
         validate: {
           len: [1]
         }
       },
-      boat: {
+      email: {
         type: DataTypes.STRING,
         allowNull: false,
         validate: {
           len: [1]
         }
       },
-      numPeople: {
+      location: {
         type: DataTypes.STRING,
         allowNull: false,
         validate: {
           len: [1]
         }
       },
-      tripCost: {
+      date: {
         type: DataTypes.STRING,
         allowNull: false,
         validate: {
           len: [1]
         }
       },
-      image: {
+      adults: {
         type: DataTypes.STRING,
         allowNull: false,
         validate: {
           len: [1]
         }
-      }
+      },
+      children: {
+        type: DataTypes.STRING,
+        allowNull: false,
+        validate: {
+          len: [1]
+        }
+      },
     });
   
-    // trip.associate = function(models) {
-    //   trip.belongsTo(models.account, {
-    //     onDelete: "CASCADE",
-    //     foreignKey: {
-    //       allowNull: true
-    //     }
-    //   });
-    // };
-  
-    return Trip;
+    return Charter;
   };
   

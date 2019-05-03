@@ -20,6 +20,8 @@ module.exports = function(app) {
   });
 
   app.get("/confirmation", function(req, res) {
+    // get the data off the query string
+    // pass the data to the render
     res.render("confirm", {
       msg: "Welcome"
     });

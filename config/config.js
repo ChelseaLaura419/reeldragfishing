@@ -4,14 +4,14 @@ module.exports = {
   "development": {
     "username": "root",
     "password": process.env.DB_PASSWORD,
-    "database": "trip_db",
+    "database": "fishing_db",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
   "test": {
     "username": "root",
     "password": process.env.DB_PASSWORD,
-    "database": "trip_db",
+    "database": "fishing_db",
     "host": "127.0.0.1",
     "dialect": "mysql",
     "logging": false

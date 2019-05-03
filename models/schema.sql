@@ -1,3 +1,3 @@
-DROP DATABASE IF EXISTS trip_db;
-CREATE DATABASE trip_db;
-USE trip_db;
+DROP DATABASE IF EXISTS fishing_db;
+CREATE DATABASE fishing_db;
+USE fishing_db;

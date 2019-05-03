@@ -6,46 +6,46 @@
   <div class="chartForm">
     <div class="container">
       <h4 class="blue">Book A Private Charter</h4>
-      <form>
+      <form method="POST" action="api/charter">
         <div class="form-group">
           <div class="form-row">
             <div class="col">
               <label for="inputFirstName">First Name</label>
-              <input type="text" class="form-control" placeholder="First Name">
+              <input id="firstName" class="form-control" placeholder="First Name" type="text" name="firstName">
             </div>
             <div class="col">
               <label for="inputLastName">Last Name</label>
-              <input type="text" class="form-control" placeholder="Last Name">
+              <input id="lastName" class="form-control" placeholder="Last Name" type="text" name="lastName">
             </div>
           </div>
           <div class="form-row">
             <div class="col">
               <label for="inputPhone">Phone Number</label>
-              <input type="text" class="form-control" placeholder="Phone Number">
+              <input id="phone" class="form-control" placeholder="Phone Number" type="text" name="phone">
             </div>
             <div class="col">
               <label for="inputEmail">Email</label>
-              <input type="text" class="form-control" placeholder="Email">
+              <input type="email" class="form-control" placeholder="Email" type="text" name="email">
             </div>
           </div>
           <div class="form-row">
             <div class="col">
               <label for="inputLocation">Trip Location</label>
-              <input type="text" class="form-control" placeholder="Trip Location">
+              <input id="location" class="form-control" placeholder="Trip Location" type="text" name="location">
             </div>
             <div class="col">
               <label for="inputDate">Requested Trip Date</label>
-              <input type="text" class="form-control" placeholder="Trip Date">
+              <input id="date" class="form-control" placeholder="Trip Date" type="text" name="date">
             </div>
           </div>
           <div class="form-row">
             <div class="col">
               <label for="inputAdults">Number Of Adults</label>
-              <input type="text" class="form-control" placeholder="Adults">
+              <input id="adults" class="form-control" placeholder="Adults" type="text" name="adults">
             </div>
             <div class="col">
               <label for="inputChildren">Number Of Children</label>
-              <input type="text" class="form-control" placeholder="Children (Under 12)">
+              <input id="children" class="form-control" placeholder="Children (Under 12)" type="text" name="children">
             </div>
           </div>
           <button type="submit" class="btn btn-primary" id="submit">Submit</button>

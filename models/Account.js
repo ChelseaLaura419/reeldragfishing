@@ -1,5 +1,5 @@
 module.exports = function(sequelize, DataTypes) {
-    let Account = sequelize.define("Account", {
+    let account = sequelize.define("account", {
         fullname: {
             type: DataTypes.STRING,
             allowNull: false,
@@ -23,8 +23,9 @@ module.exports = function(sequelize, DataTypes) {
         }
     });
 
-    Account.associate = function(models) {
-        Account.hasMany(models.Trip, {});
-    };
-    return Account;
+    //account.associate = function(models) {
+        //account.hasMany(models.trip, {});
+    //};
+    
+    return account;
 };
