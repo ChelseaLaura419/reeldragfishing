@@ -21,7 +21,7 @@ module.exports = function(app) {
       tripCost: req.body.tripCost,
       image: req.body.image,
     }).then(function(tripData) {
-      res.json(tripData);
+      res.json(tripData).end();
     });
   });
 
