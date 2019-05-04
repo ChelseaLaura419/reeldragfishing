@@ -135,3 +135,8 @@ a {
 .profileImg {
     object-fit: fill;
 }
+
+.instaPhoto:hover { 
+    background-color: black;
+    opacity: 0.5;
+  }
