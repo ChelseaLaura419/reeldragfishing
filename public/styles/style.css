@@ -79,7 +79,7 @@ h5 {
     background-image: url(../images/mapBackground.png);
 }
 
-.card {
+.homeCard {
     background: none !important;
     border: none !important;
 }
@@ -117,4 +117,17 @@ a {
 
 .white {
     color: white;
+}
+
+.gray {
+    color: gray; 
+}
+
+.tripBlock {
+    margin-top: 10px; 
+}
+
+.card-img {
+    height: 250px;
+    object-fit: cover;
 }

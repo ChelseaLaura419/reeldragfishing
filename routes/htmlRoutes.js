@@ -14,9 +14,15 @@ module.exports = function(app) {
   });
 
   app.get("/fishingbuddies", function(req, res) {
-      res.render("fishing", {
-        msg: "Welcome"
+    db.Trip.findAll({
+      order: [ [ 'createdAt', 'DESC' ]]
+    }).then(function(tripData) {
+      res.render("fishing", 
+      {
+        trips:tripData
       });
+    });
+
   });
 
   app.get("/confirmation", function(req, res) {
