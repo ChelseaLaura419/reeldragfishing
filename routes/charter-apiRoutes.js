@@ -2,8 +2,8 @@ var db = require("../models");
 
 module.exports = function(app) {
   // Get all examples
-  app.get("/api/charter", function(req, res) {
-    db.Charter.findAll({}).then(function(charterData) {
+  app.get("/api/charter/:id", function(req, res) {
+    db.Charter.findOne().then(function(charterData) {
       res.json(charterData);
     });
   });
